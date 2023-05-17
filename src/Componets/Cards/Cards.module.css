@@ -1,0 +1,85 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    justify-content: space-around;
+}
+
+.paginate{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    justify-content: space-around;
+    color: white;
+}
+
+.buton{
+    background-color: rgb(8, 151, 15);
+    color: #fcf7f7;
+    margin-top: 10px;
+    padding: 10px 70px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notButon{
+    background-color: rgb(243, 17, 9);
+    color: #fcf7f7;
+    margin-top: 10px;
+    padding: 10px 70px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notButon:hover{
+    background-color: #f32222;
+    color: white;
+}
+.buton:hover{
+    background-color: #40a836;
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .paginate{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 24px;
+        justify-content: space-around;
+    }
+
+    .buton{
+        background-color: rgb(8, 151, 15);
+        color: #fcf7f7;
+        margin-top: 10px;
+        padding: 5px 10px;
+        transition: background-color 0.4s ease;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .notButon{
+        background-color: rgb(243, 17, 9);
+        color: #fcf7f7;
+        margin-top: 10px;
+        padding: 5px 10px;
+        transition: background-color 0.4s ease;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .notButon:hover{
+        background-color: #f32222;
+        color: white;
+    }
+    .buton:hover{
+        background-color: #40a836;
+        color: white;
+    }
+}

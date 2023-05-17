@@ -1,0 +1,103 @@
+.seach {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navOrd {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.order {
+  margin-top: 20px;
+  width: 30vh;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.formButon {
+  background-color: rgb(21, 57, 221);
+  color: #fff;
+  padding: 10px 60px;
+  transition: background-color 0.4s ease;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButon:hover {
+  background-color: #4954f3;
+  color: white;
+}
+
+.exitButon {
+  background-color: rgb(206, 18, 18);
+  color: #fff;
+  padding: 10px 70px;
+  transition: background-color 0.4s ease;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exitButon:hover {
+  background-color: #d43e3e;
+  color: white;
+}
+
+.resetButon {
+  background-color: rgb(247, 222, 0);
+  color: #000000;
+  margin-top: 10px;
+  padding: 10px 70px;
+  transition: background-color 0.4s ease;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resetButon:hover {
+  background-color: #e4c435;
+  color: rgb(5, 1, 1);
+}
+
+@media only screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navOrd {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .formButon {
+    padding: 10px 40px;
+  }
+
+  .exitButon {
+    padding: 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav{
+    margin-left: 20%;
+  }
+  .navOrd {
+    flex-direction: column;
+  }
+  .seach {
+    flex-direction: column;
+  }
+}

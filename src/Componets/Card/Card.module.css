@@ -1,0 +1,22 @@
+.card{
+    width: 280px;
+    font-size: 10px;
+    height: 68vh;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.img{
+    height: 20vh;
+    border-radius: 40px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #46569b;
+    color: white;
+  }

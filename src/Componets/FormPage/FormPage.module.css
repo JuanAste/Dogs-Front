@@ -1,0 +1,73 @@
+.container{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+
+.temp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.error{
+    color: rgb(250, 3, 3);
+}
+
+.butonTemp{
+    background-color: rgb(233, 14, 14);
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.butonTemp:hover{
+    background-color: #cf2c2c;
+    color: white;
+}
+
+.homeButon {
+    background-color: rgb(21, 57, 221);
+    color: #fff;
+    padding: 10px 50px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.homeButon:hover{
+    background-color: #4954f3;
+    color: white;
+}
+
+.sumitButon {
+    background-color: rgb(212, 182, 12);
+    color: #fff;
+    padding: 10px 50px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sumitButon:hover{
+    background-color: #cdcf3e;
+    color: white;
+}

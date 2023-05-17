@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(252, 178, 19);
+}
+
+.img{
+    height: 85vh;
+    width: 130vh;
+    margin-left: 19%;
+}
+
+.buton {
+    background-color: rgb(21, 57, 221);
+    color: #fff;
+    padding: 10px 60px;
+    transition: background-color 0.4s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formButon:hover {
+    background-color: #4954f3;
+    color: white;
+  }
