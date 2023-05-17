@@ -65,11 +65,11 @@ const FormPage = () => {
         temperaments: dog.temperament,
       };
 
-      axios.post("http://localhost:3001/dogs", newDog);
+      axios.post("https://servidor-dogs-6whl.onrender.com/dogs", newDog);
 
       window.alert("create Dog");
 
-      axios.get(`http://localhost:3001/dogs`).then((results) => {
+      axios.get(`https://servidor-dogs-6whl.onrender.com/dogs`).then((results) => {
         dispatch(allDogs(results.data));
       });
 

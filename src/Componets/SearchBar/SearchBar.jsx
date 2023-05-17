@@ -10,7 +10,7 @@ const SearchBar = () => {
   const onSearch = async (event) => {
     try {
       const nom = event.target.value
-      const { data } = await axios(`http://localhost:3001/name?q=${nom}`);
+      const { data } = await axios(`https://servidor-dogs-6whl.onrender.com/name?q=${nom}`);
       if (data[0].name) {
         dispatch(searchDogs(data));
         dispatch(resetNumPage())

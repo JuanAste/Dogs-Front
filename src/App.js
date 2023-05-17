@@ -15,13 +15,13 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get(`http://localhost:3001/temperaments`).then((results) => {
+    axios.get(`https://servidor-dogs-6whl.onrender.com/temperaments`).then((results) => {
       dispatch(allTemperaments(results.data));
     });
   }, [dispatch]);
 
   useEffect(() => {
-    axios.get(`http://localhost:3001/dogs`).then((results) => {
+    axios.get(`https://servidor-dogs-6whl.onrender.com/dogs`).then((results) => {
       dispatch(allDogs(results.data));
     });
   }, [dispatch]);

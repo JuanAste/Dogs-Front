@@ -8,7 +8,7 @@ const Deatil = () => {
   const [dog, setDog] = useState([]);
 
   useEffect(() => {
-    axios(`http://localhost:3001/dogs/${id}`).then(({ data }) => {
+    axios(`https://servidor-dogs-6whl.onrender.com/dogs/${id}`).then(({ data }) => {
       if (data.name) {
         setDog(data);
       }
